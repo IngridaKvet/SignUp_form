@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #e5e5e5;
+}
+
+
+body>div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.formSection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button.signUp{
+    background-color: #263238;
+    color:white;
+    border-style: none;
+    width: 147px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 23px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;   
+    
+}
+
+div>p{
+    width: 485px;
+    text-align: center;
+}
+
+a{  
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}
+
+.pictureSection>div{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+h1{
+font-size: 25px;
+margin-top: 0px;
+margin-bottom: 30px;
+}
+
+input{
+  width: 263px;
+  height: 30px;
+  background-color: #FFE9B3;
+  border: solid black 1px;
+  border-radius: 50px;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+
+textarea, input { outline: none; }
+
+label{
+ font-size: 15px;
+ font-family: 'Nunito', sans-serif;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-bottom: #5d5d5d solid  2px;
+}
+
+.button>p{
+  text-align: end;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
