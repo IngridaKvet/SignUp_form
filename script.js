@@ -1,14 +1,42 @@
-input = document.querySelector("input[type='text']")
+const inputAll = document.querySelectorAll("input");
 
-function ph () {
+let clickEvent = () => {
+    document.querySelector("input").classList.add("submitted")
+    console.log("he")
+}
 
-    document.body.style.backgroundColor = "red";
-    // input.setAttribute('placeholder','enter your name');
-};
+// inputAll.forEach((item) => {
+//     item.addEventListener('click', clickEvent())
+// });
 
-function phr () {
-    input.setAttribute('placeholder', '');
-};
+inputAll.forEach((item) => {
+        item.addEventListener('click', function clickEvent(event){
+            event.target.classList.add('submitted'); 
+        })
+    });
+    
 
-input.addEventListener("mouseover", ph);
-input.addEventListener("mouseout", phr);
+
+// document.addEventListener('click', function handleClick(event) {
+//     console.log('user clicked: ', event.target);
+  
+//     event.target.classList.add('bg-yellow');
+//   });
+// function classToForm(){
+//     document.querySelector("input").classList.add("submitted")
+//     console.log("he")
+
+// }
+
+// inputAll.addEventListener("click", classToForm);
+
+
+
+// let elements = document.querySelectorAll('.button');
+
+// let clickEvent = () => {
+//     console.log('some event content here...')
+// }
+// elements.forEach((item) => {
+//     item.addEventListener('click', clickEvent)
+// });
