@@ -1,28 +1,28 @@
 html{
-    height: 100%;
-    font-family: 'Nunito Sans', sans-serif;
-    margin:0;
-    padding: 0;
+  height: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+  margin:0;
+  padding: 0;
 }
 body{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-color: #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #e5e5e5;
 }
 
 
 body>div{
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
 }
 
 form{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .formSection{
@@ -32,21 +32,21 @@ form{
 }
 
 button.signUp{
-    background-color: #263238;
-    color:white;
-    border-style: none;
-    width: 147px;
-    height: 30px;
-    border-radius: 50px;
-    margin-top: 23px;
-    font-size: 15px;
-    font-family: 'Nunito', sans-serif;   
+  background-color: #263238;
+  color:white;
+  border-style: none;
+  width: 147px;
+  height: 30px;
+  border-radius: 50px;
+  margin-top: 23px;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;   
     
 }
 
 div>p{
-    width: 485px;
-    text-align: center;
+  width: 485px;
+  text-align: center;
 }
 
 a{  
@@ -64,8 +64,7 @@ a{
 p{
   font-size: 20px;
   margin-bottom: 30px;
- margin-left: 50px;
-  
+  margin-left: 50px;
 }
 
 h1{
@@ -106,18 +105,14 @@ label{
   margin-bottom: 5px;
 }
 
-
-
 input:not(:focus){
   box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
  
 }
 
-
 input:focus{
   box-shadow: 4px 4px 4px #ffb703;
 }
-
 
 input:not(:focus):valid{
   box-shadow: 4px 4px 4px #00ff57;
@@ -127,25 +122,24 @@ input.submitted:not(:focus):invalid{
   box-shadow: 4px 4px 4px #ff0808;
 }
 
-
-
-
 form>div>p{
   font-size: 10px;
   margin-bottom: 10px;
 }
 
+#errorMsg{
+  font-size: 10px;
+  margin-bottom: 10px;
+  width: 626px;
+  text-align: center;
+
+}
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
 }
 
 /* Change autocomplete styles in WebKit */
@@ -158,8 +152,6 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: 1px solid green;
-  -webkit-text-fill-color: green;
-  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  -webkit-box-shadow: 0 0 0px 1000px #FFE9B3 inset;
   transition: background-color 5000s ease-in-out 0s;
 }
